@@ -8,7 +8,7 @@
   <img src="./assets/images/instruction-menu.jpg" alt="AR instruction menu over the LabFábrica training environment" width="900" />
 </p>
 
-**Video demonstration:** [▶ Calibration flow](./assets/demos/calibration-flow.mp4)
+**Video demonstrations:** [▶ Calibration flow](./assets/demos/calibration-flow.mp4) · [▶ Instruction application](./assets/demos/instruction-application-compressed.mp4)
 
 ## What this prototype demonstrates
 
@@ -45,9 +45,9 @@ Contextual guidance for laboratory equipment
 | --- | --- |
 | <img src="./assets/images/instruction-menu.jpg" alt="Instruction selection menu" width="450" /> | <img src="./assets/images/labfactory-overview.jpg" alt="Contextual AR content in the LabFábrica environment" width="450" /> |
 
-| Equipment guidance | Demo recording |
+| Equipment guidance | Demo recordings |
 | --- | --- |
-| <img src="./assets/images/equipment-guidance.jpg" alt="Equipment guidance in augmented reality" width="450" /> | [Calibration flow](./assets/demos/calibration-flow.mp4) |
+| <img src="./assets/images/equipment-guidance.jpg" alt="Equipment guidance in augmented reality" width="450" /> | [Calibration flow](./assets/demos/calibration-flow.mp4) · [Instruction application](./assets/demos/instruction-application-compressed.mp4) |
 
 ## Public repository scope
 
