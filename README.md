@@ -6,7 +6,7 @@ A research-oriented augmented-reality prototype developed to explore immersive i
 
 This project adapts written instructions to an augmented-reality experience. Spatial anchors help place the experience in the physical environment, while interactive widgets guide the user through the procedure in context.
 
-The repository presents the non-confidential laboratory prototype and selected source code. It is intended to document the interaction design and implementation approach rather than provide a turnkey production build.
+The repository presents a non-confidential laboratory prototype and selected implementation notes. It documents the interaction design and implementation approach rather than providing a turnkey production build.
 
 ## Main features
 
@@ -23,20 +23,16 @@ The repository presents the non-confidential laboratory prototype and selected s
 - Meta Quest / Oculus XR tooling
 - Unity Sentis for the computer-vision workflow
 
-## Repository structure
+## Repository contents
 
-- `Scripts/` — selected C# scripts for anchors, calibration, widgets, instruction management, and detection
-- `README.md` — project overview and setup notes
+- README.md — project overview, feature summary, and setup notes
+
+The complete Unity project, source tree, binary builds, proprietary assets, industrial datasets, and confidential client-specific materials are intentionally not included.
 
 ## Setup notes
 
-1. Install Unity 2022.3 LTS with the XR tooling required by your target headset.
-2. Create or open a Unity project and copy the contents of `Scripts/` into an appropriate `Assets/Scripts/` directory.
-3. Configure the XR platform, scene permissions, input bindings, and any required model assets for the target device.
-4. Build the scene and test the anchor placement and instructional flow on the headset.
-
-The complete Unity project, binary builds, proprietary assets, industrial datasets, and confidential client-specific materials are intentionally not included.
+This repository is documentation-oriented. To reproduce the prototype, you would need the original Unity project, the appropriate XR packages and device configuration, scene assets, and any required permissions. Those materials are not included in this public repository.
 
 ## Scope
 
-This repository is a sanitized technical record of an academic/laboratory prototype. Please treat the source as an educational reference and verify dependencies and permissions before reuse.
+This repository is a sanitized technical record of an academic/laboratory prototype. Please treat it as an educational reference and verify dependencies and permissions before reuse.
