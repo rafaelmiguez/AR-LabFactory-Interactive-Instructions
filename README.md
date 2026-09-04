@@ -1,19 +1,19 @@
-# AR LabFactory — Interactive Instructions
+# Drivolution Version 1.0 — AR Interactive Instructions
 
-A research-oriented augmented-reality prototype developed to explore immersive instructional interfaces for technical procedures.
+A Unity-based augmented-reality prototype developed to explore immersive instructional interfaces for technical procedures.
 
-## Overview
+## Project context
 
-This project adapts written instructions to an augmented-reality experience. Spatial anchors help place the experience in the physical environment, while interactive widgets guide the user through the procedure in context.
+Drivolution Version 1.0 adapts written technical instructions into an interactive augmented-reality experience. Spatial anchors place the experience in the physical environment, while instructional widgets and contextual panels guide the user through the procedure step by step.
 
-The repository presents a non-confidential laboratory prototype and selected implementation notes. It documents the interaction design and implementation approach rather than providing a turnkey production build.
+The prototype was developed as a laboratory research project focused on the design and implementation of XR interaction flows. This public repository is a sanitized project overview; it is not intended to provide a turnkey production build.
 
 ## Main features
 
 - Spatial-anchor-based placement of the AR experience
 - Interactive instructional widgets and contextual panels
 - Tutorial calibration and instruction-flow management
-- Support for XR interaction with Meta Quest devices
+- XR interaction support for Meta Quest devices
 - Optional computer-vision-assisted component detection workflow
 
 ## Technology
@@ -23,16 +23,14 @@ The repository presents a non-confidential laboratory prototype and selected imp
 - Meta Quest / Oculus XR tooling
 - Unity Sentis for the computer-vision workflow
 
-## Repository contents
+## Public repository scope
 
-- README.md — project overview, feature summary, and setup notes
+This repository currently contains the public project documentation and implementation overview. The original Unity project, complete source tree, scenes, binary builds, proprietary assets, industrial datasets, and project-specific materials are not included.
 
-The complete Unity project, source tree, binary builds, proprietary assets, industrial datasets, and confidential client-specific materials are intentionally not included.
+## Access and reproduction
 
-## Setup notes
+A runnable reconstruction of Drivolution Version 1.0 requires access to the original Unity project, scene assets, XR packages, target-device configuration, and the relevant permissions. Those materials are not included in this public repository, so the content here should be read as a technical case study rather than a standalone application.
 
-This repository is documentation-oriented. To reproduce the prototype, you would need the original Unity project, the appropriate XR packages and device configuration, scene assets, and any required permissions. Those materials are not included in this public repository.
+## Confidentiality
 
-## Scope
-
-This repository is a sanitized technical record of an academic/laboratory prototype. Please treat it as an educational reference and verify dependencies and permissions before reuse.
+Only non-confidential information is summarized here. Proprietary assets, sensitive data, and client-specific implementation details are intentionally omitted.
