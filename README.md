@@ -31,6 +31,15 @@ Unity instructional workflow
 Contextual guidance for laboratory equipment
 ```
 
+## Included source code
+
+The core C# scripts used in the prototype are available in [`src/core`](./src/core):
+
+- **[CalibradorDeTutorial](./src/core/CalibradorDeTutorial.cs):** calibration, creation, and persistence of spatial anchors using Meta/Oculus.
+- **[GerenciadorDeInstrucoes](./src/core/GerenciadorDeInstrucoes.cs):** user and task selection, instruction steps, images, pings, logs, and spatial anchor restoration.
+
+These scripts are provided for technical reference and require the original Unity setup and project dependencies.
+
 ## Technology
 
 - **Unity 2022.3.62f2 LTS**
@@ -51,7 +60,7 @@ Contextual guidance for laboratory equipment
 
 ## Public repository scope
 
-This repository is a **public technical case study**, not a turnkey production build. It contains non-confidential documentation and demonstration media that show the interaction design and the prototype in use.
+This repository is a **public technical case study**, not a turnkey production build. It contains selected core C# scripts, non-confidential documentation, and demonstration media that show the interaction design and the prototype in use.
 
 The original Unity project, complete source tree, scenes, binary builds, proprietary assets, industrial datasets, and project-specific materials are intentionally excluded. This keeps the public record useful while respecting confidentiality and reuse constraints.
 
