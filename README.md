@@ -8,7 +8,12 @@
   <img src="./assets/images/instruction-menu.jpg" alt="AR instruction menu over the LabFábrica training environment" width="900" />
 </p>
 
-**Video demonstrations:** [▶ Calibration flow](./assets/demos/calibration-flow.mp4) · [▶ Instruction application](./assets/demos/instruction-application-compressed.mp4)
+## Video demonstrations
+
+- **[▶ Instruction application — MP4, 17 MB](https://github.com/rafaelmiguez/AR-LabFactory-Interactive-Instructions/raw/refs/heads/main/assets/demos/instruction-application-compressed.mp4)** — the compressed recording of the application in use.
+- [▶ Calibration flow](./assets/demos/calibration-flow.mp4) — the spatial calibration workflow.
+
+The application link opens the video file directly or downloads it, depending on your browser. [View the file in the repository](./assets/demos/instruction-application-compressed.mp4).
 
 ## What this prototype demonstrates
 
@@ -30,6 +35,12 @@ Unity instructional workflow
         ↓
 Contextual guidance for laboratory equipment
 ```
+
+## Development contribution
+
+I developed the Unity/C# application to connect step-by-step instructions to physical equipment through interactive widgets and spatial anchors. The implementation includes calibration and anchor persistence, user and task selection, contextual instructional panels, images, spatial guidance markers, and session logging.
+
+The public scripts illustrate two connected responsibilities: establishing and saving the spatial reference, and restoring that reference while managing the instructional workflow. This makes both the software implementation and the interaction design visible in the case study.
 
 ## Included source code
 
